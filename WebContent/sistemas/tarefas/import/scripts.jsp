@@ -1,0 +1,1 @@
+<script type="text/javascript" src="../sistemas/tarefas/recursos/js/tf_dialogs.js" charset="UTF-8"></script>

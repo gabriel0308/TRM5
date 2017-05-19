@@ -1,0 +1,38 @@
+/*Formatacao formulario com jquery --------------------------------------------------------*/
+option.vermelho {
+    background-color: red;
+	color : #000000;
+}
+option.amarelo {
+    background-color: yellow;
+	color : #000000;
+}
+option.verde {
+    background-color: green;
+	color : #000000;
+}
+option.azul {
+    background-color: blue;
+	color : #000000;
+}
+option.laranja {
+    background-color: orange;
+	color : #000000;
+}
+.txtarea_padrao{
+	width:680px;
+	resize: none;
+	height:30px;
+}
+
+.nota{
+	height:250px;
+}
+
+#tarefa_por_usuario{
+	width: 390px;
+	height: auto;
+	padding:10px;
+	text-align: center;
+	font-size : 16px;
+}

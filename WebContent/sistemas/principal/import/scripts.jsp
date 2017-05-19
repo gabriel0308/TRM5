@@ -1,0 +1,1 @@
+<script type="text/javascript" src="../sistemas/principal/recursos/js/principal.js" charset="UTF-8"></script>

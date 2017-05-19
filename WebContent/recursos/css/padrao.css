@@ -1,0 +1,372 @@
+* {
+	margin : 0 auto;
+	padding : 0;
+}
+html {
+	font-family : 'Inder', sans-serif;
+	width : 100%;
+}
+h6 {
+	color:white;
+}
+body {
+	margin : 0 auto;
+	width : 100%;
+	display : table;
+	text-align : center;
+}
+
+header.principal {
+	background: white; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left top, #3D55A0, #84B9D8); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(bottom right,  #3D55A0, #84B9D8); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(bottom right,  #3D55A0, #84B9D8); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to bottom right,  #3D55b0, #84B9D8); /* Standard syntax */
+	text-shadow : 1px 1px 1px #a4a4a4;
+	font-family : 'Inder', sans-serif;	
+	font-size : 30px;
+	width : 100%;
+	height : 40px;
+	text-align : left;/*Adauto*/
+	padding : 6px 0px 0px;
+	color:white;/*Adauto*/
+	text-shadow : 2px 2px 10px #000;
+	top: 0;
+	z-index: 3;
+	position: fixed;
+}
+
+section.principal {
+	width : 100%;
+	height : 100%;
+	margin-top:82px;
+	float : none;
+	background-color : #FFFFFF;
+	padding : 0 0 50px;
+}
+
+footer.footerprincipal {
+	width : 100%;
+	height : 17px;
+	bottom : 0;
+	position : fixed;
+	z-index: 3;
+	float : none;
+	padding-top : 3px;
+	text-align : center;
+	color : #fff;
+	font : 12px 'Inder', sans-serif;
+	background: #3D55A0;
+	border-top:1px solid #293983;
+	text-shadow : 1px 1px 10px #000;
+	-webkit-box-shadow: 0px -3px 10px 0px #4f4f4f;
+	-moz-box-shadow: 0px -3px 10px 0px #4f4f4f;
+	box-shadow: 0px -3px 10px 0px #4f4f4f;
+}
+#logon {
+	margin-right : 20px;
+	margin-top:0px;
+	width : 300px;
+	height: 30px;
+	text-align : right;
+	font-size : 12px;
+	font-weight : bold;
+	z-index:1;
+	color : #fff;
+	text-shadow : 1px 1px 5px #000;
+}
+
+#logout{
+	padding-top:6px;
+	float:right;
+	background:transparent;
+	width:50px;
+	height:33px;
+	z-index:3;
+	right:0;
+	margin-right:20px;	
+	margin-top:45px;
+	position:fixed;
+}
+article.painel {
+	display : table;
+	float : none;
+	background-color : #FFFFFF;
+}
+
+header.painelheader {
+	margin-top : 0;
+	background-color : #FFFFFF;
+	font-size : 20px;
+}
+section.painelsection {
+	float : none;
+	background:transparent;
+}
+
+/* alinhamento com divs */
+div.principal-titulo{
+	width : 100%;
+	height : 10px;
+	padding-left:30px;
+}
+
+/*Formatacao de forms*/
+form label{
+	font-weight : bold;
+}
+
+/* Estilo do menu principal */
+/* ------------------------ */
+.menuH{
+    border-bottom: 1px solid #BBB;
+    font-family: Arial;
+    list-style: none;
+    margin: 0;  
+    margin-top:45px;
+    float:none;
+    z-index:3;
+    padding: 0;
+    position : fixed;
+    height: 35px;
+    width: 100%;
+	border-bottom: 1px solid #45459d;
+	-moz-box-shadow: 0px 4px 6px #868686;
+    -webkit-box-shadow: 0px 4px 6px #868686;
+    box-shadow: 0px 4px 6px #868686;  
+	background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient( #84B9D8, #3D55A0); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( #84B9D8, #3D55A0); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( #84B9D8, #3D55A0); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( #84B9D8, #3D55A0); /* Standard syntax */
+}
+
+.menuH li{
+    padding: 0;
+    margin: 0;
+    display:inline-table; 
+    float: none;
+    height: 36px;
+    position: relative;
+	-webkit-transition:200ms ease;
+    -moz-transition:200ms ease;
+    -o-transition:200ms ease;
+    transition:200ms ease;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+.menuH li:hover, .menuH li.onhover{
+	background: white; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient( #3D55A0,#84B9D8 ); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient( #3D55A0,#84B9D8); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient( #3D55A0,#84B9D8); /* For Firefox 3.6 to 15 */
+    background: linear-gradient( #3D55A0,#84B9D8); /* Standard syntax */
+}
+
+/*Used to align a top-level item to the right*/        
+.menuH .menuRight{
+    float: right;
+    margin-right: 0px;
+}
+        
+/*for the top-level separators*/
+.menuH li.separator{
+    font-size:0;
+    border-left:1px solid #F7F7F7;
+    border-right:1px solid #BBBBBB;
+}
+               
+/*######sub level###########*/
+ul.menuH ul{
+    width:150px;
+    position: absolute;
+    left: -9999px;
+    border: 1px solid #DDD;
+    border-top: 0; 
+    background: #FFF;    
+    text-align: left;
+    list-style: none; margin: 0;  
+    padding: 0;
+    box-sizing:content-box;
+}
+
+ul.menuH ul ul{
+    width:180px;
+}
+
+.menuH li li{
+    float: none;
+    height: 26px;
+    width:100%;
+    display:inline-table; 
+}
+
+.menuH li li li{
+    float: none;
+    height: 26px;
+    width:100%;
+    display:inline-table;
+}
+
+.menuH li li:hover, .menuH li li.onhover{
+    background:#84B9D8;
+	-moz-box-shadow: 0px 2px 6px #868686;
+    -webkit-box-shadow: 0px 2px 6px #868686;
+    box-shadow: 0px 2px 6px #868686;
+}
+
+/*###### Buttons ###########*/
+.menuH button.main {
+	text-align:left;
+    padding: 0px 20px;
+    line-height: 36px;
+    font-size: 13px;
+    font-family: Arial;
+	text-shadow : 1px 1px 1px #000;
+	text-shadow : 0px 0px 5px #000;
+    width:100%;
+    color: white;
+    outline: 0;
+    background-color: transparent;
+	border: 0;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+	font-weight : bold;
+}
+/*###### Buttons ###########*/
+.menuH button.sub {
+    padding: 3px 10px;
+    line-height: 20px;	
+	text-align:left;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: bold;
+    width:100%;
+    color: black;
+    outline: 0;
+    background-color: transparent;
+	border: 0;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+}
+.menuH button.sub:focus {
+	outline: none;
+	border: none;
+}
+.menuH button.sub:hover{	
+	font-weight: bold;
+}
+.menuH button.main:hover{
+    color: white;
+}
+.menuH button.sub.arrow, .menuH button.main.arrow {
+    background: url(images/arrow.gif) no-repeat right center;
+}
+.menuH button.sub.right, .menuH button.main.right{
+    background: url(images/right.gif) no-repeat 97% center;
+}
+
+.menuH li:hover ul, .menuH li.onhover ul{
+    left: -1px;/*Use this property to change offset of the dropdown*/
+    top: auto;
+}
+.menuH li:hover .dropToLeft, .menuH li.onhover .dropToLeft{
+    left: auto;
+    right: -1px;
+    top: auto;
+}
+.menuH ul ul{
+    border-top: 1px solid #DDD;
+}
+.menuH li:hover ul ul, .menuH li:hover ul ul ul, .menuH li:hover ul ul ul ul,
+.menuH li.onhover ul ul, .menuH li.onhover ul ul ul, .menuH li.onhover ul ul ul ul{
+    left: -9999px;
+    top:0;
+}
+.menuH li li:hover ul, .menuH li li li:hover ul, .menuH li li li li:hover ul,
+.menuH li li.onhover ul, .menuH li li li.onhover ul, .menuH li li li li.onhover ul{
+    left: 150px;
+}
+        
+/*####### special effects ##########*/
+.menuH ul {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+    -moz-box-shadow: 0px 6px 6px #868686;
+    -webkit-box-shadow: 0px 6px 6px #868686;
+    box-shadow: 0px 6px 6px #868686;
+}
+/* -------------------------------------------- */
+/* Mensagem de sucesso */
+/* ------------------- */
+#mgs_sucesso { 
+	margin-top:10px;
+	padding:10px;
+	width: 240px; 
+	height: 50px; 
+	right: 2pt;
+	position: fixed;
+	color:black;
+	z-index: 2;
+	-webkit-box-shadow: 0px 0px 10px #017c01;
+	-moz-box-shadow: 0px 0px 10px #017c01;
+	box-shadow: 0px 0px 10px #017c01;
+	background:#CFFFCA;
+	border:1px solid #66da5e;
+	
+}
+#text_mgs { 
+    font-size: 0.9em;
+	color:black;
+	margin: 0; 
+	padding: 0.5em; 
+	border:0;
+	background:transparent;
+	text-align: center; 
+}
+/* -------------------------------------------- */
+/* Menu Sistemas       */
+/* ------------------- */
+#menu_sistemas{
+	display : table;
+	margin-top: 20px;
+}
+
+/*  larguras    */
+.largura100{width:100px;}
+.largura110{width:110px;}
+.largura120{width:120px;}
+.largura130{width:130px;}
+.largura140{width:140px;}
+.largura150{width:150px;}
+.largura160{width:160px;}
+.largura170{width:170px;}
+.largura180{width:180px;}
+.largura190{width:190px;}
+.largura200{width:200px;}
+.largura210{width:210px;}
+.largura220{width:220px;}
+.largura230{width:230px;}
+.largura240{width:240px;}
+.largura250{width:250px;}
+.largura260{width:260px;}
+.largura270{width:270px;}
+.largura280{width:280px;}
+.largura290{width:290px;}
+.largura300{width:300px;}
+/* -------------------------------------------- */
+/* Carregando tela      */
+/* ------------------- */
+div #carregando{
+	padding-top:10px;
+	color:black;
+	font-weight: bold;
+	background:transparent;
+}
